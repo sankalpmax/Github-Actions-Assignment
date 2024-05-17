@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Create Hello World ReactJS App And IAC (Terraform AWS ECR/Fargate)
 This is ReactJS application stating Hello World
 
 # Short Description of the Assignment and Procedure of the Assignment
