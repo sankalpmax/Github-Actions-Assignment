@@ -1,4 +1,35 @@
 # Getting Started with Create React App
+This is ReactJS application stating Hello World
+
+# Short Description of the Assignment and Procedure of the Assignment
+Procedure:
+
+Project Setup:
+        Clone the project repository to your local machine.
+        Ensure you have Node.js and npm installed.
+        Install project dependencies by running npm install in the project directory.
+Development:
+        Develop the frontend and backend components of your application. Edit files in the public/ and src/ folders respectively.
+        Test your application locally using the development server provided by your development environment (e.g., npm start for Node.js applications).
+        Make iterative changes to your application, testing and debugging as needed.
+
+Infrastructure Provisioning with Terraform:
+        Define your infrastructure resources using Terraform configuration files (.tf files) within the Terraform/ folder.
+        Initialize Terraform by running terraform init in the Terraform/ folder.
+        Plan your infrastructure changes with terraform plan to review the changes Terraform will make.
+        Apply the changes with terraform apply to provision the infrastructure resources.
+
+Containerization with Docker:
+        Write a Dockerfile (Dockerfile) specifying how to build your application image.
+        Build the Docker image using the Dockerfile with docker build -t <image_name> ..
+        Run the Docker container locally with docker run -p <host_port>:<container_port> <image_name> to test the containerized application.
+Deployment:
+        Once your application and infrastructure configurations are tested locally, deploy them to your production environment.
+        This may involve deploying the Docker containers to a container orchestration platform like Kubernetes or deploying them to a cloud provider's managed 
+        
+container service.
+        Use Terraform to manage the deployment of infrastructure resources to your production environment.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
